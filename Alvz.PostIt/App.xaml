@@ -4,6 +4,15 @@
              xmlns:local="clr-namespace:Alvz.PostIt"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <FontFamily x:Key="Metropolis-Light">pack://application:,,,/Fonts/#Metropolis Light</FontFamily>
+            <FontFamily x:Key="Metropolis-Black">pack://application:,,,/Fonts/#Metropolis Black</FontFamily>
+            <FontFamily x:Key="Metropolis-Medium">pack://application:,,,/Fonts/#Metropolis Medium</FontFamily>
+            <FontFamily x:Key="Metropolis-Regular">pack://application:,,,/Fonts/#Metropolis Regular</FontFamily>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
